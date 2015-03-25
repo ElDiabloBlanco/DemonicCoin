@@ -36,23 +36,17 @@ unsigned int nTransactionsUpdated = 0;
 map<uint256, CBlockIndex*> mapBlockIndex;
 set<pair<COutPoint, unsigned int> > setStakeSeen;
 
-// pull numbers from ass -- doesn't matter
 CBigNum bnProofOfWorkLimit(~uint256(0) >> 20);
 CBigNum bnProofOfStakeLimit(~uint256(0) >> 20);
 // testing is for dorks no one cares
 CBigNum bnProofOfWorkLimitTestNet(~uint256(0) >> 16);
 
-// maximize instamine effect by with long blocks, but not too long
 unsigned int nTargetSpacing     = 240;                // 4 minutes
 unsigned int nStakeMinAge       = 6 * 24 * 60 * 60;   // 6 days
 unsigned int nStakeMaxAge       = 18 * 24 * 60 * 60;  // 18 days
-// lol sunny king must have been smoking crack.
-// here's proof:
 unsigned int nModifierInterval  = 40 * 60;            // time to elapse before new modifier is computed
-                                                      // yeah whatever wannabe einstein
-                                                      // no one knows what this does or cares
 
-int nCoinbaseMaturity = 60;                           // wait 4 hours to spread your fud
+int nCoinbaseMaturity = 60;                           // 4 hours
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 
@@ -75,7 +69,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "FUDcoin Signed Message:\n";
+const string strMessageMagic = "DarkCoin Signed Message:\n";
 
 // Settings
 int64_t nTransactionFee = MIN_TX_FEE;
@@ -973,14 +967,9 @@ int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
 {
     int64_t nSubsidy = 0;
 
-    if (nHeight <= LAST_FAIR_LAUNCH_BLOCK)  // secret premine
-        nSubsidy = 10000000000 * COIN;      // found it? Go fud yourself.
-    else
     if (nHeight <= LAST_POW_BLOCK)
-        // do teh maf.
-        nSubsidy = COIN * (int64_t) floor(BAGHOLDER_MULTIPLIER *
-                                            (1.0 / sqrt(nHeight + PROFIT_DETERIORATOR)) -
-                                                                         PROFIT_INCREASIFIER);
+        nSubsidy = COIN * (int64_t) floor(MULTIPLIER *
+                                       (1.0 / sqrt(nHeight + DETERIORATOR)) - INCREASIFIER);
 
     if (fDebug && GetBoolArg("-printcreation"))
         printf("GetProofOfWorkReward() : create=%s nSubsidy=%"PRId64"\n", FormatMoney(nSubsidy).c_str(), nSubsidy);
@@ -2071,9 +2060,9 @@ bool CBlock::AcceptBlock()
     if (GetBlockTime() <= pindexPrev->GetPastTimeLimit() || FutureDrift(GetBlockTime()) < pindexPrev->GetBlockTime())
         return error("AcceptBlock() : block's timestamp is too early");
 
-    // Check timestamp against global interlock modulus
+    // Check timestamp against launch time
     if (GetBlockTime() < MOON_TIME)
-         return DoS(100, error("AcceptBlock(): timestamp preempts interlock modulus"));
+         return DoS(100, error("AcceptBlock(): timestamp is prior to launch"));
 
     // Check that all transactions are finalized
     BOOST_FOREACH(const CTransaction& tx, vtx)
@@ -2363,7 +2352,7 @@ bool CheckDiskSpace(uint64_t nAdditionalBytes)
         string strMessage = _("Warning: Disk space is low!");
         strMiscWarning = strMessage;
         printf("*** %s\n", strMessage.c_str());
-        uiInterface.ThreadSafeMessageBox(strMessage, "FUDcoin", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
+        uiInterface.ThreadSafeMessageBox(strMessage, "DarkCoin", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
         StartShutdown();
         return false;
     }

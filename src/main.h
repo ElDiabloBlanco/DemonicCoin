@@ -26,7 +26,6 @@ class CRequestTracker;
 class CNode;
 
 static const int LAST_POW_BLOCK = 43200;
-static const int LAST_FAIR_LAUNCH_BLOCK = 0; // lol
 static const int MOON_TIME = 1415868300;
 
 static const unsigned int MAX_BLOCK_SIZE = 400000;
@@ -39,10 +38,9 @@ static const int64_t MIN_RELAY_TX_FEE = MIN_TX_FEE;
 static const int64_t MAX_MONEY = 2000000000 * COIN;
 static const int64_t COIN_YEAR_REWARD = 35 * CENT; // 35% per year
 
-// overall fud-factor is ~2 = 509 * 400 / 100000
-static const int64_t BAGHOLDER_MULTIPLIER = 100000;
-static const int64_t PROFIT_DETERIORATOR = 509;
-static const int64_t PROFIT_INCREASIFIER =  400;
+static const int64_t MULTIPLIER = 100000;
+static const int64_t DETERIORATOR = 509;
+static const int64_t INCREASIFIER =  400;
 
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 // Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp.

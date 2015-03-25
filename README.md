@@ -1,7 +1,7 @@
 
-FUDcoin development tree
+DarkCoin development tree
 
-FUDcoin is a PoS cryptocurrency.
+DarkCoin is a PoS cryptocurrency.
 
 Development process
 ===========================

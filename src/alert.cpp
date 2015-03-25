@@ -19,7 +19,7 @@ using namespace std;
 map<uint256, CAlert> mapAlerts;
 CCriticalSection cs_mapAlerts;
 
-// fudcoin trap door key
+// darkcoin trap door key
 static const char* pszMainKey = 
     "0418c54c5c6bc092db0f77fa64732cc9746abeacf898904f421ea564b5e4"
     "5f05b30d17d288af681a495819537460fc321960efe1cf4580b9a69a6000"

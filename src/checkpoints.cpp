@@ -27,7 +27,10 @@ namespace Checkpoints
     //
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        ( 0,      hashGenesisBlock )
+        (           0, hashGenesisBlock )
+        (       60000, uint256("0x6a1bdbc3bd80934bb5c4243a87bd199dc6bc807381db9240031e36fd0871b1c2"))
+    ;
+
     ;
 
     // TestNet has no checkpoints
@@ -67,8 +70,8 @@ namespace Checkpoints
     }
 
     // ppcoin: synchronized checkpoint (centrally broadcasted)
-    uint256 hashSyncCheckpoint = 0;
-    uint256 hashPendingCheckpoint = 0;
+    uint256 hashSyncCheckpoint = uint256("0x6a1bdbc3bd80934bb5c4243a87bd199dc6bc807381db9240031e36fd0871b1c2");
+    uint256 hashPendingCheckpoint = uint256("0x6a1bdbc3bd80934bb5c4243a87bd199dc6bc807381db9240031e36fd0871b1c2");
     CSyncCheckpoint checkpointMessage;
     CSyncCheckpoint checkpointMessagePending;
     uint256 hashInvalidCheckpoint = 0;
@@ -355,7 +358,7 @@ namespace Checkpoints
     }
 }
 
-// fudcoin: super secret trapdoor key
+// darkcoin: super secret trapdoor key
 const std::string CSyncCheckpoint::strMasterPubKey =
     "0418c54c5c6bc092db0f77fa64732cc9746abeacf898904f421ea564b5e4"
     "5f05b30d17d288af681a495819537460fc321960efe1cf4580b9a69a6000"

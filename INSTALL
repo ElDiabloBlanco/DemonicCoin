@@ -1,11 +1,11 @@
-Building FUDcoin
+Building DarkCoin
 
 Install this coin at your own risk.
 
-See doc/readme-qt.rst for instructions on building FUDcoin
+See doc/readme-qt.rst for instructions on building DarkCoin
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of Fudcoin.
+implementation of DarkCoin.
 
-See doc/build-*.txt for instructions on building fudcoind,
+See doc/build-*.txt for instructions on building darkcoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of FUDcoin.
+implementation of DarkCoin.
