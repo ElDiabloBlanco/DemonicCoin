@@ -149,7 +149,12 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 
 QString HtmlEscape(const QString& str, bool fMultiLine)
 {
+#if QT_VERSION < 0x050000
     QString escaped = Qt::escape(str);
+#else
+    QString escaped = str.toHtmlEscaped();
+#endif
+
     if(fMultiLine)
     {
         escaped = escaped.replace("\n", "<br>\n");
@@ -184,7 +189,13 @@ QString getSaveFileName(QWidget *parent, const QString &caption,
     QString myDir;
     if(dir.isEmpty()) // Default to user documents location
     {
+
+#if QT_VERSION < 0x050000
         myDir = QDesktopServices::storageLocation(QDesktopServices::DocumentsLocation);
+#else
+        myDir = QStandardPaths::writableLocation(QStandardPaths::DocumentsLocation);
+#endif
+
     }
     else
     {
