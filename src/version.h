@@ -30,7 +30,9 @@ static const int DATABASE_VERSION = 70509;
 // network protocol versioning
 //
 
-static const int PROTOCOL_VERSION = 61100;
+// 61100: the new dark (cosmetic changes)
+// 61101: fixed linking to leveldb adapter and updated for Qt5
+static const int PROTOCOL_VERSION = 61101;
 
 // intial proto version, to be increased after version/verack negotiation
 static const int INIT_PROTO_VERSION = 209;
