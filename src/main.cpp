@@ -38,7 +38,6 @@ set<pair<COutPoint, unsigned int> > setStakeSeen;
 
 CBigNum bnProofOfWorkLimit(~uint256(0) >> 20);
 CBigNum bnProofOfStakeLimit(~uint256(0) >> 20);
-// testing is for dorks no one cares
 CBigNum bnProofOfWorkLimitTestNet(~uint256(0) >> 16);
 
 unsigned int nTargetSpacing     = 240;                // 4 minutes
@@ -1905,7 +1904,7 @@ bool CBlock::AddToBlockIndex(unsigned int nFile, unsigned int nBlockPos, const u
     pindexNew->SetStakeModifier(nStakeModifier, fGeneratedStakeModifier);
     pindexNew->nStakeModifierChecksum = GetStakeModifierChecksum(pindexNew);
     if (!CheckStakeModifierCheckpoints(pindexNew->nHeight, pindexNew->nStakeModifierChecksum))
-        return error("AddToBlockIndex() : Rejected by stake modifier checkpoint height=%d, modifier=0x%016"PRIx64, pindexNew->nHeight, nStakeModifier);
+        return error("AddToBlockIndex() : Rejected by stake modifier checkpoint height=%d, modifier=0x%08"PRIx64, pindexNew->nHeight, pindexNew->nStakeModifierChecksum);
 
     // Add to mapBlockIndex
     map<uint256, CBlockIndex*>::iterator mi = mapBlockIndex.insert(make_pair(hash, pindexNew)).first;
@@ -2418,8 +2417,9 @@ bool LoadBlockIndex(bool fAllowNew)
         pchMessageStart[3] = 0x0b;
 
         bnProofOfWorkLimit = bnProofOfWorkLimitTestNet; // 16 bits PoW target limit for testnet
-        nStakeMinAge = 1 * 60 * 60; // test net min age is 1 hour
-        nCoinbaseMaturity = 10; // test maturity is 10 blocks
+        nStakeMinAge = 10 * 60; // test net min age is 10 min
+        nCoinbaseMaturity = 5; // test maturity is 4 blocks
+        nModifierInterval = 1 * 60;
     };
 
     //
@@ -2437,35 +2437,9 @@ bool LoadBlockIndex(bool fAllowNew)
         if (!fAllowNew)
             return false;
 
-        // WTF is all this?
-
-        /* -- mainnet
-        block.nTime = 1405769613 
-        block.nNonce = 261836 
-        block.GetHash = 00000eca234f07edc98aaf3f2a7b7478dc58992a9cd439323d099c6a590ca2bb
-        hashMerkleRoot 26a3ff5d3dc46b091e7b58b6022982e6d27dff1bab3bd1da6beb4790983c87c4
-        CBlock(hash=00000eca234f07edc98aaf3f2a7b7478dc58992a9cd439323d099c6a590ca2bb, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=26a3ff5d3dc46b091e7b58b6022982e6d27dff1bab3bd1da6beb4790983c87c4, nTime=1405769613, nBits=1e0fffff, nNonce=261836, vtx=1, vchBlockSig=)
-          Coinbase(hash=26a3ff5d3d, nTime=1405769613, ver=1, vin.size=1, vout.size=1, nLockTime=0)
-            CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a4c5e7777772e63727970746f636f696e736e6577732e636f6d2f6e6577732f6269746c6963656e73652d726567756c6174696f6e732d666f726b65642d6769746875622d626974636f696e2d636f6d6d756e6974792f323031342f30372f3139)
-            CTxOut(empty)
-          vMerkleTree: 26a3ff5d3d
-        */
-        
-        /* -- testnet
-        block.nTime = 1405769613 
-        block.nNonce = 55887 
-        block.GetHash = 0000910a87c1385247edc82808ec498a2d738fea5f0d3f8801512d6b84ad6f72
-        hashMerkleRoot 26a3ff5d3dc46b091e7b58b6022982e6d27dff1bab3bd1da6beb4790983c87c4
-        CBlock(hash=0000910a87c1385247edc82808ec498a2d738fea5f0d3f8801512d6b84ad6f72, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=26a3ff5d3dc46b091e7b58b6022982e6d27dff1bab3bd1da6beb4790983c87c4, nTime=1405769613, nBits=1f00ffff, nNonce=55887, vtx=1, vchBlockSig=)
-          Coinbase(hash=26a3ff5d3d, nTime=1405769613, ver=1, vin.size=1, vout.size=1, nLockTime=0)
-            CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a4c5e7777772e63727970746f636f696e736e6577732e636f6d2f6e6577732f6269746c6963656e73652d726567756c6174696f6e732d666f726b65642d6769746875622d626974636f696e2d636f6d6d756e6974792f323031342f30372f3139)
-            CTxOut(empty)
-          vMerkleTree: 26a3ff5d3d 
-        */
 
         const char* pszTimestamp = "today: FUDcoin annointed by Satoshi Nakamura";
         CTransaction txNew;
-        // txNew.nTime = 1415858158;
         txNew.nTime = 1415785440;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2477,24 +2451,34 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        // block.nTime    = 1415858158;
         block.nTime = 1415785440;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = !fTestNet ? 1080661 : 1080661;
+        block.nNonce   = fTestNet ? 3668 : 1139298;
 
         
-   ////////////////////////////////////////////////
-   // cloners: find your genesis nonce
-   ////////////////////////////////////////////////
-   // block.nNonce = 0;
-   // block.print();
-   // while (!block.CheckBlock()) {
-   //    printf("nNonce %d\n", (int) block.nNonce);
-   //    block.nNonce += 1;
-   // }
-   ////////////////////////////////////////////////
-   
+// set conditional to true to find the genesis nNonce
+#if 0
+   printf("Searching for a genesis block........\n");
+   uint256 hashTarget;
+   if (block.GetHash() != hashGenesisBlock) {
+        hashTarget = CBigNum().SetCompact(block.nBits).getuint256();
+        while (block.GetHash() > hashTarget) {
+            ++block.nNonce;
+            if (block.nNonce == 0)
+            {
+                printf("NONCE WRAPPED, incrementing time");
+                ++block.nTime;
+            }
+        }
+   }
+   printf("hashTarget == %s\n--\n", hashTarget.ToString().c_str());
+#endif
+
    block.print();
+   printf("block.GetHash() == %s\n", block.GetHash().ToString().c_str());
+   printf("block.hashMerkleRoot == %s\n", block.hashMerkleRoot.ToString().c_str());
+   printf("block.nTime = %u \n", block.nTime);
+   printf("block.nNonce = %u \n", block.nNonce);
 
         assert(block.hashMerkleRoot ==
            uint256("0x54aae1b40101447a5b73a3bca92a1bf8fc1f93343654700317f43dd0d68d140e"));

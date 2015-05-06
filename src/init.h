@@ -7,6 +7,8 @@
 
 #include "wallet.h"
 
+#include "dark.h"
+
 extern CWallet* pwalletMain;
 void StartShutdown();
 void Shutdown(void* parg);
