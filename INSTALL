@@ -1,11 +1,11 @@
-Building DarkCoin
+Building DARK
 
 Install this coin at your own risk.
 
-See doc/readme-qt.rst for instructions on building DarkCoin
+See doc/readme-qt.rst for instructions on building DARK
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of DarkCoin.
+implementation of DARK.
 
-See doc/build-*.txt for instructions on building darkcoind,
+See doc/build-*.txt for instructions on building DARKd,
 the intended-for-services, no-graphical-interface, reference
-implementation of DarkCoin.
+implementation of DARK.

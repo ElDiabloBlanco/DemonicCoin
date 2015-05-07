@@ -1,8 +1,8 @@
 #ifndef QTIPCSERVER_H
 #define QTIPCSERVER_H
 
-// Define DarkCoin-Qt message queue name
-#define BITCOINURI_QUEUE_NAME "DarkCoinURI"
+// Define DARK-Qt message queue name
+#define BITCOINURI_QUEUE_NAME "DARKURI"
 
 void ipcScanRelay(int argc, char *argv[]);
 void ipcInit(int argc, char *argv[]);

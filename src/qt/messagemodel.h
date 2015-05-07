@@ -67,7 +67,7 @@ struct MessageTableEntry
     }
 };
 
-/** Interface to DarkCoin Secure Messaging from Qt view code. */
+/** Interface to DARK Secure Messaging from Qt view code. */
 class MessageModel : public QAbstractTableModel
 {
     Q_OBJECT

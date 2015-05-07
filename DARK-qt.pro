@@ -1,5 +1,5 @@
 TEMPLATE = app
-TARGET = darkcoin-qt
+TARGET = DARK-qt
 VERSION = 1.2.0.1
 INCLUDEPATH += src src/json src/qt src/qt/plugins/mrichtexteditor
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE
@@ -26,7 +26,7 @@ MOC_DIR = build
 UI_DIR = build
 
 build_macosx64 {
-    QMAKE_TARGET_BUNDLE_PREFIX = co.darkcoin
+    QMAKE_TARGET_BUNDLE_PREFIX = com.thenewdark
     BOOST_LIB_SUFFIX=-mt
     BOOST_INCLUDE_PATH=/usr/local/Cellar/boost/1.55.0_2/include
     BOOST_LIB_PATH=/usr/local/Cellar/boost/1.55.0_2/lib
@@ -433,7 +433,7 @@ macx:OBJECTIVE_SOURCES += src/qt/macdockiconhandler.mm \
 macx:LIBS += -framework Foundation -framework ApplicationServices -framework AppKit
 macx:DEFINES += MAC_OSX MSG_NOSIGNAL=0
 macx:ICON = src/qt/res/icons/bitcoin.icns
-macx:TARGET = "DarkCoin-Qt"
+macx:TARGET = "DARK-Qt"
 macx:QMAKE_CFLAGS_THREAD += -pthread
 macx:QMAKE_LFLAGS_THREAD += -pthread
 macx:QMAKE_CXXFLAGS_THREAD += -pthread

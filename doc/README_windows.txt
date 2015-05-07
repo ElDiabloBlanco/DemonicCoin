@@ -1,6 +1,6 @@
-DarkCoin
+DARK
 
-Copyright (c) 2014 DarkCoin Developers
+Copyright (c) 2014 DARK Developers
 Copyright (c) 2014 ShadowCoin Developers
 Copyright (c) 2014 BlackCoin Developers
 Copyright (c) 2013 NovaCoin Developers
@@ -14,7 +14,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 Intro
 -----
-DarkCoin is a free open source project derived from Bitcoin, with
+DARK is a free open source project derived from Bitcoin, with
 the goal of providing a long-term energy-efficient scrypt-based crypto-currency.
 Built on the foundation of Bitcoin, PPCoin, NovaCoin and BlackCoin, innovations such as proof-of-stake
 help further advance the field of crypto-currency.

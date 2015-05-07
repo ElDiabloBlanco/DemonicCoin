@@ -3,13 +3,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About DarkCoin</source>
-        <translation>Over DarkCoin</translation>
+        <source>About DARK</source>
+        <translation>Over DARK</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;DarkCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;DarkCoin&lt;/b&gt; versie</translation>
+        <source>&lt;b&gt;DARK&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;DARK&lt;/b&gt; versie</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -66,8 +66,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your DarkCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn al jou DarkCoin adressen om betalingen mee te ontvangen. Je kunt iedere verzender een apart adres geven zodat je kunt volgen wie jou betaald.</translation>
+        <source>These are your DARK addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dit zijn al jou DARK adressen om betalingen mee te ontvangen. Je kunt iedere verzender een apart adres geven zodat je kunt volgen wie jou betaald.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -81,8 +81,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a DarkCoin address</source>
-        <translation>Teken een bericht om te bewijzen dat je een DarkCoin adres bezit.</translation>
+        <source>Sign a message to prove you own a DARK address</source>
+        <translation>Teken een bericht om te bewijzen dat je een DARK adres bezit.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -96,8 +96,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified DarkCoin address</source>
-        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek DarkCoin adres</translation>
+        <source>Verify a message to ensure it was signed with a specified DARK address</source>
+        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek DARK adres</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -264,8 +264,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-58"/>
-        <source>DarkCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>DarkCoin zal nu sluiten om het versleutel proces te voltooien. Onthou dat het versleutelen van je portemonnee je niet volledig beschermt tegen diefstal van munten door malware op je computer.</translation>
+        <source>DARK will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>DARK zal nu sluiten om het versleutel proces te voltooien. Onthou dat het versleutelen van je portemonnee je niet volledig beschermt tegen diefstal van munten door malware op je computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -378,8 +378,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about DarkCoin</source>
-        <translation>Toon informatie over DarkCoin</translation>
+        <source>Show information about DARK</source>
+        <translation>Toon informatie over DARK</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -428,13 +428,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a DarkCoin address</source>
-        <translation>Verstuur munten naar een DarkCoin adres</translation>
+        <source>Send coins to a DARK address</source>
+        <translation>Verstuur munten naar een DARK adres</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for DarkCoin</source>
-        <translation>Verander configuratie opties voor DarkCoin</translation>
+        <source>Modify configuration options for DARK</source>
+        <translation>Verander configuratie opties voor DARK</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -473,8 +473,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-200"/>
-        <source>DarkCoin</source>
-        <translation>DarkCoin</translation>
+        <source>DARK</source>
+        <translation>DARK</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -483,8 +483,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About DarkCoin</source>
-        <translation>&amp;Over DarkCoin</translation>
+        <source>&amp;About DARK</source>
+        <translation>&amp;Over DARK</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -540,13 +540,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>DarkCoin client</source>
-        <translation>DarkCoin client</translation>
+        <source>DARK client</source>
+        <translation>DARK client</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to DarkCoin network</source>
-        <translation><numerusform>%n actieve verbinding naar DarkCoin netwerk</numerusform><numerusform>%n actieve verbindingen naar DarkCoin netwerk</numerusform></translation>
+        <source>%n active connection(s) to DARK network</source>
+        <translation><numerusform>%n actieve verbinding naar DARK netwerk</numerusform><numerusform>%n actieve verbindingen naar DARK netwerk</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -660,8 +660,8 @@ Adres: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid DarkCoin address or malformed URI parameters.</source>
-        <translation>URI kan niet ontleedt worden! Mogelijke oorzaken zijn een ongeldig DarkCoin adres of incorrecte URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid DARK address or malformed URI parameters.</source>
+        <translation>URI kan niet ontleedt worden! Mogelijke oorzaken zijn een ongeldig DARK adres of incorrecte URI parameters.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -720,8 +720,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. DarkCoin can no longer continue safely and will quit.</source>
-        <translation>Een fatale fout . DarkCoin kan niet langer veilig doorgaan en sluit af.</translation>
+        <source>A fatal error occurred. DARK can no longer continue safely and will quit.</source>
+        <translation>Een fatale fout . DARK kan niet langer veilig doorgaan en sluit af.</translation>
     </message>
 </context>
 <context>
@@ -1054,8 +1054,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid DarkCoin address.</source>
-        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig DarkCoin adres.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid DARK address.</source>
+        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig DARK adres.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1073,8 +1073,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>DarkCoin-Qt</source>
-        <translation>DarkCoin-Qt</translation>
+        <source>DARK-Qt</source>
+        <translation>DARK-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1146,13 +1146,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start DarkCoin after logging in to the system.</source>
-        <translation>Automatisch starten van DarkCoin na inloggen van het systeem.</translation>
+        <source>Automatically start DARK after logging in to the system.</source>
+        <translation>Automatisch starten van DARK na inloggen van het systeem.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start DarkCoin on system login</source>
-        <translation>&amp;Start DarkCoin bij systeem aanmelding</translation>
+        <source>&amp;Start DARK on system login</source>
+        <translation>&amp;Start DARK bij systeem aanmelding</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1171,8 +1171,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the DarkCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>De DarkCoin client poort automatisch openen op de router. Dit werkt alleen wanneer uw router UPnP ondersteunt en deze is ingeschakeld.</translation>
+        <source>Automatically open the DARK client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>De DARK client poort automatisch openen op de router. Dit werkt alleen wanneer uw router UPnP ondersteunt en deze is ingeschakeld.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1181,8 +1181,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the DarkCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Verbinding maken met het DarkCoin netwerk via een SOCKS proxy (bijvoorbeeld als U gebruik maakt van Tor)</translation>
+        <source>Connect to the DARK network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Verbinding maken met het DARK netwerk via een SOCKS proxy (bijvoorbeeld als U gebruik maakt van Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1256,8 +1256,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting DarkCoin.</source>
-        <translation>De user interface-taal kan hier ingesteld worden. Deze instelling word toegepast na DarkCoin opnieuw op te starten.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting DARK.</source>
+        <translation>De user interface-taal kan hier ingesteld worden. Deze instelling word toegepast na DARK opnieuw op te starten.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1271,8 +1271,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show DarkCoin addresses in the transaction list or not.</source>
-        <translation>DarkCoin adressen in de transactielijst weergeven of niet</translation>
+        <source>Whether to show DARK addresses in the transaction list or not.</source>
+        <translation>DARK adressen in de transactielijst weergeven of niet</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1318,8 +1318,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting DarkCoin.</source>
-        <translation>Deze instelling word toegepast na een restart van DarkCoin.</translation>
+        <source>This setting will take effect after restarting DARK.</source>
+        <translation>Deze instelling word toegepast na een restart van DARK.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1337,8 +1337,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DarkCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn, Je portemonnee synchroniseerd automatisch met het DarkCoin netwerk nadat er verbindig is gemaakt, maar dit proces is nog niet voltooid.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DARK network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn, Je portemonnee synchroniseerd automatisch met het DARK netwerk nadat er verbindig is gemaakt, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1553,8 +1553,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the DarkCoin-Qt help message to get a list with possible DarkCoin command-line options.</source>
-        <translation>Laat het DarkCoin-QT help bericht zien om een lijst te krijgen met mogelijke DarkCoin command-regel opties.</translation>
+        <source>Show the DARK-Qt help message to get a list with possible DARK command-line options.</source>
+        <translation>Laat het DARK-QT help bericht zien om een lijst te krijgen met mogelijke DARK command-regel opties.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1573,13 +1573,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>DarkCoin - Debug window</source>
-        <translation>DarkCoin - Debugscherm</translation>
+        <source>DARK - Debug window</source>
+        <translation>DARK - Debugscherm</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>DarkCoin Core</source>
-        <translation>DarkCoin Kern</translation>
+        <source>DARK Core</source>
+        <translation>DARK Kern</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1588,8 +1588,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the DarkCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het DarkCoin debug log bestand van de huidige data map. Dit kan een paar seconden duren voor grote log bestanden.</translation>
+        <source>Open the DARK debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het DARK debug log bestand van de huidige data map. Dit kan een paar seconden duren voor grote log bestanden.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1598,8 +1598,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the DarkCoin RPC console.</source>
-        <translation>Welkom bij de DarkCoin RPC console.</translation>
+        <source>Welcome to the DARK RPC console.</source>
+        <translation>Welkom bij de DARK RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1757,8 +1757,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a DarkCoin address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
-        <translation>Voeg een DarkCoin adres in (bijv. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
+        <source>Enter a DARK address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
+        <translation>Voeg een DARK adres in (bijv. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1857,8 +1857,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid DarkCoin address</source>
-        <translation>WAARSCHUWING: Ongeldig DarkCoin adres</translation>
+        <source>WARNING: Invalid DARK address</source>
+        <translation>WAARSCHUWING: Ongeldig DARK adres</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1931,8 +1931,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DarkCoin address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
-        <translation>Voeg een DarkCoin adres in (bijv. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
+        <source>Enter a DARK address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
+        <translation>Voeg een DARK adres in (bijv. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
     </message>
 </context>
 <context>
@@ -1992,8 +1992,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this DarkCoin address</source>
-        <translation>Teken een bericht om te bewijzen dat je een DarkCoin adres bezit.</translation>
+        <source>Sign the message to prove you own this DARK address</source>
+        <translation>Teken een bericht om te bewijzen dat je een DARK adres bezit.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2024,8 +2024,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified DarkCoin address</source>
-        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek DarkCoin adres</translation>
+        <source>Verify the message to ensure it was signed with the specified DARK address</source>
+        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek DARK adres</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2035,8 +2035,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DarkCoin address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
-        <translation>Voeg een DarkCoin adres in (bijv. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
+        <source>Enter a DARK address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
+        <translation>Voeg een DARK adres in (bijv. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2045,8 +2045,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter DarkCoin signature</source>
-        <translation>Voer DarkCoin handtekening in</translation>
+        <source>Enter DARK signature</source>
+        <translation>Voer DARK handtekening in</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2616,8 +2616,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>DarkCoin version</source>
-        <translation>DarkCoin versie</translation>
+        <source>DARK version</source>
+        <translation>DARK versie</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2626,8 +2626,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or darkcoind</source>
-        <translation>Verstuur commando naar -server of darkcoind</translation>
+        <source>Send command to -server or DARKd</source>
+        <translation>Verstuur commando naar -server of DARKd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2646,13 +2646,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: darkcoin.conf)</source>
-        <translation>Selecteer configuratie bestand (standaard: darkcoin.conf)</translation>
+        <source>Specify configuration file (default: DARK.conf)</source>
+        <translation>Selecteer configuratie bestand (standaard: DARK.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: darkcoind.pid)</source>
-        <translation>Selecteer pid bestand (standaard: darkcoin.conf)</translation>
+        <source>Specify pid file (default: DARKd.pid)</source>
+        <translation>Selecteer pid bestand (standaard: DARK.conf)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2801,8 +2801,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DarkCoin will not work properly.</source>
-        <translation>Waarschuwing: Controleer of de datum en tijd van de computer juist zijn! Als uw klok verkeerd is DarkCoin zal niet goed werken.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DARK will not work properly.</source>
+        <translation>Waarschuwing: Controleer of de datum en tijd van de computer juist zijn! Als uw klok verkeerd is DARK zal niet goed werken.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2991,24 +2991,24 @@ Dit betekend dat een fee van %2 is vereist.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=darkcoinrpc
+rpcuser=DARKrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;DarkCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;DARK Alert&quot; admin@foo.com
 </source>
         <translation>%s, u moet een rpcpassword instellen in het configuratiebestand: 
 %s 
 Het wordt aanbevolen de volgende willekeurig wachtwoord gebruiken: 
-rpcuser = darkcoinrpc 
+rpcuser = DARKrpc 
 rpcpassword = %s 
 (je hoeft niet dit wachtwoord te onthouden) 
 De gebruikersnaam en het wachtwoord MAG NIET hetzelfde zijn. 
 Als het bestand niet bestaat, maakt u met leesbare-alleen-eigenaar bestandsbeheermachtigingen.  
 Het wordt ook aanbevolen om alertnotify instellen zodat u een melding van problemen;  
-bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;DarkCoin Alert&quot; admin@foo.com </translation>
+bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;DARK Alert&quot; admin@foo.com </translation>
     </message>
     <message>
         <location line="+51"/>
@@ -3132,13 +3132,13 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;DarkCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  DarkCoin is probably already running.</source>
-        <translation>Kan een slot op data directory %s niet verkrijgen. DarkCoin wordt waarschijnlijk al uitgevoerd.</translation>
+        <source>Cannot obtain a lock on data directory %s.  DARK is probably already running.</source>
+        <translation>Kan een slot op data directory %s niet verkrijgen. DARK wordt waarschijnlijk al uitgevoerd.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>DarkCoin</source>
-        <translation>DarkCoin</translation>
+        <source>DARK</source>
+        <translation>DARK</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3172,13 +3172,13 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;DarkCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of DarkCoin</source>
-        <translation>Fout bij laden van wallet.dat: Portemonnee vereist een nieuwere versie van DarkCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of DARK</source>
+        <translation>Fout bij laden van wallet.dat: Portemonnee vereist een nieuwere versie van DARK</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart DarkCoin to complete</source>
-        <translation>Portemonnee moet herschreven worden: herstart DarkCoin om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart DARK to complete</source>
+        <translation>Portemonnee moet herschreven worden: herstart DARK om te voltooien</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3247,8 +3247,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;DarkCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. DarkCoin is probably already running.</source>
-        <translation>Niet mogelijk om %s op deze computer. DarkCoin is waarschijnlijk al geopened.</translation>
+        <source>Unable to bind to %s on this computer. DARK is probably already running.</source>
+        <translation>Niet mogelijk om %s op deze computer. DARK is waarschijnlijk al geopened.</translation>
     </message>
     <message>
         <location line="-97"/>

@@ -3,13 +3,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About DarkCoin</source>
-        <translation>O DarkCoin</translation>
+        <source>About DARK</source>
+        <translation>O DARK</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;DarkCoin&lt;/b&gt; version</source>
-        <translation>verzia &lt;b&gt;DarkCoinu&lt;/b&gt;</translation>
+        <source>&lt;b&gt;DARK&lt;/b&gt; version</source>
+        <translation>verzia &lt;b&gt;DARKu&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -67,8 +67,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your DarkCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú vaše DarkCoin adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
+        <source>These are your DARK addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú vaše DARK adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -82,8 +82,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a DarkCoin address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto DarkCoin adresu</translation>
+        <source>Sign a message to prove you own a DARK address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto DARK adresu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -97,8 +97,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified DarkCoin address</source>
-        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou DarkCoin adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified DARK address</source>
+        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou DARK adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -265,8 +265,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-58"/>
-        <source>DarkCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>DarkCoin sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom napadnutím vašeho počítača.</translation>
+        <source>DARK will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>DARK sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom napadnutím vašeho počítača.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -379,8 +379,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about DarkCoin</source>
-        <translation>Zobraziť informácie o DarkCoin</translation>
+        <source>Show information about DARK</source>
+        <translation>Zobraziť informácie o DARK</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -429,13 +429,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a DarkCoin address</source>
-        <translation>Poslať mince na DarkCoin adresu</translation>
+        <source>Send coins to a DARK address</source>
+        <translation>Poslať mince na DARK adresu</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for DarkCoin</source>
-        <translation>Upraviť možnosti konfigurácie pre DarkCoin</translation>
+        <source>Modify configuration options for DARK</source>
+        <translation>Upraviť možnosti konfigurácie pre DARK</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -474,8 +474,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-200"/>
-        <source>DarkCoin</source>
-        <translation>DarkCoin</translation>
+        <source>DARK</source>
+        <translation>DARK</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -484,8 +484,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About DarkCoin</source>
-        <translation>&amp;O DarkCoin</translation>
+        <source>&amp;About DARK</source>
+        <translation>&amp;O DARK</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -541,13 +541,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>DarkCoin client</source>
-        <translation>DarkCoin klient</translation>
+        <source>DARK client</source>
+        <translation>DARK klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to DarkCoin network</source>
-        <translation><numerusform>%n aktívne spojenie s DarkCoin sieťov</numerusform><numerusform>%n aktívnych spojení s DarkCoin sieťov</numerusform><numerusform>%n aktívnych spojení s DarkCoin sieťou</numerusform></translation>
+        <source>%n active connection(s) to DARK network</source>
+        <translation><numerusform>%n aktívne spojenie s DARK sieťov</numerusform><numerusform>%n aktívnych spojení s DARK sieťov</numerusform><numerusform>%n aktívnych spojení s DARK sieťou</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -660,8 +660,8 @@ Adresa: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid DarkCoin address or malformed URI parameters.</source>
-        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou DarkCoin adresu alebo chybnými URI parametrami.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid DARK address or malformed URI parameters.</source>
+        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou DARK adresu alebo chybnými URI parametrami.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -720,8 +720,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. DarkCoin can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažnej chybe. DarkCoin už nemôže pokračovať bezpečne a bude ukončený.</translation>
+        <source>A fatal error occurred. DARK can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažnej chybe. DARK už nemôže pokračovať bezpečne a bude ukončený.</translation>
     </message>
 </context>
 <context>
@@ -1054,8 +1054,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid DarkCoin address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; nie je platnou DarkCoin adresou.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid DARK address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; nie je platnou DARK adresou.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1073,8 +1073,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>DarkCoin-Qt</source>
-        <translation>DarkCoin-Qt</translation>
+        <source>DARK-Qt</source>
+        <translation>DARK-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1146,13 +1146,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start DarkCoin after logging in to the system.</source>
-        <translation>Automaticky spustiť DarkCoin po prihlásení sa do systému.</translation>
+        <source>Automatically start DARK after logging in to the system.</source>
+        <translation>Automaticky spustiť DARK po prihlásení sa do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start DarkCoin on system login</source>
-        <translation>&amp;Spustiť DarkCoin pri prihlásení do systému</translation>
+        <source>&amp;Start DARK on system login</source>
+        <translation>&amp;Spustiť DARK pri prihlásení do systému</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1171,8 +1171,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the DarkCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port klienta DarkCoin na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
+        <source>Automatically open the DARK client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port klienta DARK na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1181,8 +1181,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the DarkCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojenie k sieti DarkCoin cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
+        <source>Connect to the DARK network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Pripojenie k sieti DARK cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1256,8 +1256,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting DarkCoin.</source>
-        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní DarkCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting DARK.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní DARK.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1271,8 +1271,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show DarkCoin addresses in the transaction list or not.</source>
-        <translation>Či chcete zobraziť DarkCoin adresy v zozname transakcií alebo nie.</translation>
+        <source>Whether to show DARK addresses in the transaction list or not.</source>
+        <translation>Či chcete zobraziť DARK adresy v zozname transakcií alebo nie.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1318,8 +1318,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting DarkCoin.</source>
-        <translation>Toto nastavenie sa prejaví až po reštartovaní DarkCoin.</translation>
+        <source>This setting will take effect after restarting DARK.</source>
+        <translation>Toto nastavenie sa prejaví až po reštartovaní DARK.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1337,8 +1337,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DarkCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou DarkCoin po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DARK network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou DARK po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1553,8 +1553,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the DarkCoin-Qt help message to get a list with possible DarkCoin command-line options.</source>
-        <translation>Zobraziť DarkCoin-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku DarkCoin.</translation>
+        <source>Show the DARK-Qt help message to get a list with possible DARK command-line options.</source>
+        <translation>Zobraziť DARK-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku DARK.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1573,13 +1573,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>DarkCoin - Debug window</source>
-        <translation>DarkCoin - Ladiace okno</translation>
+        <source>DARK - Debug window</source>
+        <translation>DARK - Ladiace okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>DarkCoin Core</source>
-        <translation>Jadro DarkCoin</translation>
+        <source>DARK Core</source>
+        <translation>Jadro DARK</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1588,8 +1588,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the DarkCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorte DarkCoin súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
+        <source>Open the DARK debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorte DARK súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1598,8 +1598,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the DarkCoin RPC console.</source>
-        <translation>Vitajte v konzole DarkCoin RPC.</translation>
+        <source>Welcome to the DARK RPC console.</source>
+        <translation>Vitajte v konzole DARK RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1757,8 +1757,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a DarkCoin address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
-        <translation>Zadajte DarkCoin adresu (napr. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
+        <source>Enter a DARK address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
+        <translation>Zadajte DARK adresu (napr. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1857,8 +1857,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid DarkCoin address</source>
-        <translation>UPOZORNENIE: Neplatná DarkCoin adresa</translation>
+        <source>WARNING: Invalid DARK address</source>
+        <translation>UPOZORNENIE: Neplatná DARK adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1931,8 +1931,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DarkCoin address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
-        <translation>Zadajte DarkCoin adresu (napr. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
+        <source>Enter a DARK address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
+        <translation>Zadajte DARK adresu (napr. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
     </message>
 </context>
 <context>
@@ -1992,8 +1992,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this DarkCoin address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto DarkCoin adresu</translation>
+        <source>Sign the message to prove you own this DARK address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto DARK adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2024,8 +2024,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified DarkCoin address</source>
-        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou DarkCoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified DARK address</source>
+        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou DARK adresou</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2035,8 +2035,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DarkCoin address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
-        <translation>Zadajte DarkCoin adresu (napr. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
+        <source>Enter a DARK address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
+        <translation>Zadajte DARK adresu (napr. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2045,8 +2045,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter DarkCoin signature</source>
-        <translation>Zadajte DarkCoin podpis</translation>
+        <source>Enter DARK signature</source>
+        <translation>Zadajte DARK podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2616,8 +2616,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>DarkCoin version</source>
-        <translation>DarkCoin verzia</translation>
+        <source>DARK version</source>
+        <translation>DARK verzia</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2626,8 +2626,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or darkcoind</source>
-        <translation>Pošli príkaz na -server alebo darkcoind</translation>
+        <source>Send command to -server or DARKd</source>
+        <translation>Pošli príkaz na -server alebo DARKd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2646,13 +2646,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: darkcoin.conf)</source>
-        <translation>Zadajte konfiguračný súbor (predvolené: darkcoin.conf)</translation>
+        <source>Specify configuration file (default: DARK.conf)</source>
+        <translation>Zadajte konfiguračný súbor (predvolené: DARK.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: darkcoind.pid)</source>
-        <translation>Zadajte pid súbor (predvolené: darkcoind.pid)</translation>
+        <source>Specify pid file (default: DARKd.pid)</source>
+        <translation>Zadajte pid súbor (predvolené: DARKd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2801,8 +2801,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DarkCoin will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny DarkCoin nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DARK will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny DARK nebude pracovať správne.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2991,24 +2991,24 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=darkcoinrpc
+rpcuser=DARKrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;DarkCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;DARK Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
  %s
 Je odporúčané použiť nasledujúce náhodné heslo:
-rpcuser=darkcoinrpc
+rpcuser=DARKrpc
 rpcpassword=%s
 (Nemusíte si pamätať toto heslo)
 Užívateľské meno a heslo nesmú byť rovnaké. 
 Ak súbor neexistuje, vytvorte ho s oprávneniami súborov vlastníkov iba na čítatanie.
 Odporúča sa tiež nastaviť alertnotify, takže budete upozornení na problémy;
-napríklad: alertnotify=echo %%s | mail -s &quot;DarkCoin Alert&quot; admin@foo.com</translation>
+napríklad: alertnotify=echo %%s | mail -s &quot;DARK Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+51"/>
@@ -3132,13 +3132,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;DarkCoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  DarkCoin is probably already running.</source>
-        <translation>Nemožno získať zámok na dátový adresár %s. DarkCoin už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s.  DARK is probably already running.</source>
+        <translation>Nemožno získať zámok na dátový adresár %s. DARK už pravdepodobne beží.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>DarkCoin</source>
-        <translation>DarkCoin</translation>
+        <source>DARK</source>
+        <translation>DARK</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3172,13 +3172,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;DarkCoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of DarkCoin</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu DarkCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of DARK</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu DARK</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart DarkCoin to complete</source>
-        <translation>Peňaženka potrebuje byť prepísaná: reštartujte DarkCoin k dokončeniu</translation>
+        <source>Wallet needed to be rewritten: restart DARK to complete</source>
+        <translation>Peňaženka potrebuje byť prepísaná: reštartujte DARK k dokončeniu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3247,8 +3247,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;DarkCoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. DarkCoin is probably already running.</source>
-        <translation>Nemôžem sa pripojiť na %s na tomto počítači. DarkCoin je pravdepodobne už beží.</translation>
+        <source>Unable to bind to %s on this computer. DARK is probably already running.</source>
+        <translation>Nemôžem sa pripojiť na %s na tomto počítači. DARK je pravdepodobne už beží.</translation>
     </message>
     <message>
         <location line="-97"/>

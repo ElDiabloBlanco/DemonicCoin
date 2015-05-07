@@ -3,13 +3,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About DarkCoin</source>
-        <translation>Vad du behöver veta om DarkCoin</translation>
+        <source>About DARK</source>
+        <translation>Vad du behöver veta om DARK</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;DarkCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;DarkCoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;DARK&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;DARK&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -68,8 +68,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your DarkCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dessa är dina DarkCoin adesser för att mottaga betalningsförsändelser. Du kan även använda olika adresser för varje avsändare för att enkelt hålla koll på vem som har skickat en betalning.</translation>
+        <source>These are your DARK addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dessa är dina DARK adesser för att mottaga betalningsförsändelser. Du kan även använda olika adresser för varje avsändare för att enkelt hålla koll på vem som har skickat en betalning.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -83,8 +83,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a DarkCoin address</source>
-        <translation>Signera ett meddelande för att bevisa att du äger DarkCoin adressen</translation>
+        <source>Sign a message to prove you own a DARK address</source>
+        <translation>Signera ett meddelande för att bevisa att du äger DARK adressen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -98,8 +98,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified DarkCoin address</source>
-        <translation>Verifiera ett meddelande för att försäkra dig över att det var signerat av en specifik DarkCoin adress</translation>
+        <source>Verify a message to ensure it was signed with a specified DARK address</source>
+        <translation>Verifiera ett meddelande för att försäkra dig över att det var signerat av en specifik DARK adress</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -266,8 +266,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-58"/>
-        <source>DarkCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>DarkCoin plånboken kommer nu att stängas för att slutföra krypteringen: Kom ihåg att även en krypterad plånboks säkerhet kan äventyras genom keyloggers eller dylika malwares.</translation>
+        <source>DARK will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>DARK plånboken kommer nu att stängas för att slutföra krypteringen: Kom ihåg att även en krypterad plånboks säkerhet kan äventyras genom keyloggers eller dylika malwares.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -380,8 +380,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about DarkCoin</source>
-        <translation>Visa information om DarkCoin</translation>
+        <source>Show information about DARK</source>
+        <translation>Visa information om DARK</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -430,13 +430,13 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a DarkCoin address</source>
-        <translation>Skicka coins till en DarkCoin adress</translation>
+        <source>Send coins to a DARK address</source>
+        <translation>Skicka coins till en DARK adress</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for DarkCoin</source>
-        <translation>Modifiera konfigurations-alternativ för DarkCoin</translation>
+        <source>Modify configuration options for DARK</source>
+        <translation>Modifiera konfigurations-alternativ för DARK</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -475,8 +475,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-200"/>
-        <source>DarkCoin</source>
-        <translation>DarkCoin</translation>
+        <source>DARK</source>
+        <translation>DARK</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -485,8 +485,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About DarkCoin</source>
-        <translation>&amp;Om DarkCoin</translation>
+        <source>&amp;About DARK</source>
+        <translation>&amp;Om DARK</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -542,13 +542,13 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>DarkCoin client</source>
-        <translation>DarkCoin klient</translation>
+        <source>DARK client</source>
+        <translation>DARK klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to DarkCoin network</source>
-        <translation><numerusform>%n aktiv anslutning till DarkCoin nätverket</numerusform><numerusform>%n aktiva anslutning till DarkCoin nätverket</numerusform></translation>
+        <source>%n active connection(s) to DARK network</source>
+        <translation><numerusform>%n aktiv anslutning till DARK nätverket</numerusform><numerusform>%n aktiva anslutning till DARK nätverket</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -662,8 +662,8 @@ Adress: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid DarkCoin address or malformed URI parameters.</source>
-        <translation>URI:n kan inte tolkas! Detta kan bero på en ogiltig DarkCoin adress eller felaktiga URI parametrar.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid DARK address or malformed URI parameters.</source>
+        <translation>URI:n kan inte tolkas! Detta kan bero på en ogiltig DARK adress eller felaktiga URI parametrar.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -722,8 +722,8 @@ Adress: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. DarkCoin can no longer continue safely and will quit.</source>
-        <translation>Ett fatalt fel uppstod. DarkCoin kan inte fortsätta och stänger programmet.</translation>
+        <source>A fatal error occurred. DARK can no longer continue safely and will quit.</source>
+        <translation>Ett fatalt fel uppstod. DARK kan inte fortsätta och stänger programmet.</translation>
     </message>
 </context>
 <context>
@@ -1017,7 +1017,7 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="+10"/>
         <source>The label associated with this address book entry</source>
-        <translation>Namnet som kopplats till denna DarkCoin-adress</translation>
+        <translation>Namnet som kopplats till denna DARK-adress</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1056,8 +1056,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid DarkCoin address.</source>
-        <translation>Den inslagna adressen &quot;%1&quot; är inte en giltig DarkCoin adress.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid DARK address.</source>
+        <translation>Den inslagna adressen &quot;%1&quot; är inte en giltig DARK adress.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1075,8 +1075,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>DarkCoin-Qt</source>
-        <translation>DarkCoin-Qt</translation>
+        <source>DARK-Qt</source>
+        <translation>DARK-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1148,13 +1148,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start DarkCoin after logging in to the system.</source>
-        <translation>Starta DarkCoin automatiskt vid inloggning.</translation>
+        <source>Automatically start DARK after logging in to the system.</source>
+        <translation>Starta DARK automatiskt vid inloggning.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start DarkCoin on system login</source>
-        <translation>&amp;Starta DarkCoin vid inloggning</translation>
+        <source>&amp;Start DARK on system login</source>
+        <translation>&amp;Starta DARK vid inloggning</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1173,8 +1173,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the DarkCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt DarkCoin klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är aktiverat.</translation>
+        <source>Automatically open the DARK client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt DARK klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är aktiverat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1183,8 +1183,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the DarkCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Anslut till DarkCoin nätverket via en SOCKS proxy (t.ex. när du ansluter genom Tor).</translation>
+        <source>Connect to the DARK network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Anslut till DARK nätverket via en SOCKS proxy (t.ex. när du ansluter genom Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1258,8 +1258,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting DarkCoin.</source>
-        <translation>Användargränssnittets språk kan ställas in här. Inställningen börjar gälla efter omstart av DarkCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting DARK.</source>
+        <translation>Användargränssnittets språk kan ställas in här. Inställningen börjar gälla efter omstart av DARK.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1273,8 +1273,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show DarkCoin addresses in the transaction list or not.</source>
-        <translation>Om DarkCoin adresser skall visas i transaktionslistan eller inte.</translation>
+        <source>Whether to show DARK addresses in the transaction list or not.</source>
+        <translation>Om DARK adresser skall visas i transaktionslistan eller inte.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1320,8 +1320,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting DarkCoin.</source>
-        <translation>Inställningen börjar gälla efter omstart av DarkCoin.</translation>
+        <source>This setting will take effect after restarting DARK.</source>
+        <translation>Inställningen börjar gälla efter omstart av DARK.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1339,8 +1339,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DarkCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara gammal. Din plånbok synkroniseras automatiskt med DarkCoin nätverket efter att en anslutning skapats, men denna process är inte klar än.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DARK network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara gammal. Din plånbok synkroniseras automatiskt med DARK nätverket efter att en anslutning skapats, men denna process är inte klar än.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1555,8 +1555,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the DarkCoin-Qt help message to get a list with possible DarkCoin command-line options.</source>
-        <translation>Visa DarkCoin-Qt hjälp meddelandet för att få en lista över möjliga DarkCoin kommandoradsalternativ.</translation>
+        <source>Show the DARK-Qt help message to get a list with possible DARK command-line options.</source>
+        <translation>Visa DARK-Qt hjälp meddelandet för att få en lista över möjliga DARK kommandoradsalternativ.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1575,13 +1575,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>DarkCoin - Debug window</source>
-        <translation>DarkCoin - Felsökningsfönster</translation>
+        <source>DARK - Debug window</source>
+        <translation>DARK - Felsökningsfönster</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>DarkCoin Core</source>
-        <translation>DarkCoin Core</translation>
+        <source>DARK Core</source>
+        <translation>DARK Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1590,8 +1590,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the DarkCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna DarkCoin felsöknings-loggfilen från nuvarande data mapp. Detta kan kan ta ett par minuter för stora log filer.</translation>
+        <source>Open the DARK debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna DARK felsöknings-loggfilen från nuvarande data mapp. Detta kan kan ta ett par minuter för stora log filer.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1600,8 +1600,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the DarkCoin RPC console.</source>
-        <translation>Välkommen till DarkCoin RPC konsoll.</translation>
+        <source>Welcome to the DARK RPC console.</source>
+        <translation>Välkommen till DARK RPC konsoll.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1759,8 +1759,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a DarkCoin address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
-        <translation>Fyll i en DarkCoin adress (t.ex. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
+        <source>Enter a DARK address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
+        <translation>Fyll i en DARK adress (t.ex. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1859,8 +1859,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid DarkCoin address</source>
-        <translation>VARNING: Ogiltig DarkCoin adress</translation>
+        <source>WARNING: Invalid DARK address</source>
+        <translation>VARNING: Ogiltig DARK adress</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1933,8 +1933,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DarkCoin address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
-        <translation>Fyll i en DarkCoin adress (t.ex. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
+        <source>Enter a DARK address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
+        <translation>Fyll i en DARK adress (t.ex. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
     </message>
 </context>
 <context>
@@ -1994,8 +1994,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this DarkCoin address</source>
-        <translation>Signera meddelandet för att verifiera att du äger denna DarkCoin adressen</translation>
+        <source>Sign the message to prove you own this DARK address</source>
+        <translation>Signera meddelandet för att verifiera att du äger denna DARK adressen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2026,8 +2026,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified DarkCoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att det var signerat med den angivna DarkCoin adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified DARK address</source>
+        <translation>Verifiera meddelandet för att vara säker på att det var signerat med den angivna DARK adressen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2037,8 +2037,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DarkCoin address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
-        <translation>Fyll i en DarkCoin adress (t.ex. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
+        <source>Enter a DARK address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
+        <translation>Fyll i en DARK adress (t.ex. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2047,8 +2047,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter DarkCoin signature</source>
-        <translation>Fyll i DarkCoin signatur</translation>
+        <source>Enter DARK signature</source>
+        <translation>Fyll i DARK signatur</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2618,8 +2618,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>DarkCoin version</source>
-        <translation>DarkCoin version</translation>
+        <source>DARK version</source>
+        <translation>DARK version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2628,8 +2628,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or darkcoind</source>
-        <translation>Skicka kommando till -server eller darkcoind</translation>
+        <source>Send command to -server or DARKd</source>
+        <translation>Skicka kommando till -server eller DARKd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2648,13 +2648,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: darkcoin.conf)</source>
-        <translation>Ange konfigurationsfilen (standard: darkcoin.conf)</translation>
+        <source>Specify configuration file (default: DARK.conf)</source>
+        <translation>Ange konfigurationsfilen (standard: DARK.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: darkcoind.pid)</source>
-        <translation>Ange pid filen (standard darkcoind.pid)</translation>
+        <source>Specify pid file (default: DARKd.pid)</source>
+        <translation>Ange pid filen (standard DARKd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2803,8 +2803,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DarkCoin will not work properly.</source>
-        <translation>Varning: Kolla att din dators tid och datum är rätt. DarkCoin kan inte fungera ordentligt om tiden i datorn är fel.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DARK will not work properly.</source>
+        <translation>Varning: Kolla att din dators tid och datum är rätt. DARK kan inte fungera ordentligt om tiden i datorn är fel.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2993,24 +2993,24 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=darkcoinrpc
+rpcuser=DARKrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;DarkCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;DARK Alert&quot; admin@foo.com
 </source>
         <translation>%s, du måste sätta rpcpassword i konfigurationsfilen:
  %s
 Det är rekommenderat att du använder följande slumpmässiga lösenord:
-rpcuser=darkcoinrpc
+rpcuser=DARKrpc
 rpcpassword=%s
 (du behöver inte komma ihåg detta lösenord)
 Användarnamnet och lösenordet FÅR INTE vara samma.
 Om filen inte finns, skapa den med endast ägarrättigheter.
 Det är också rekommenderat att sätta alertnotify så du blir notifierad om problem;
-till exempel: alertnotify=echo %%s | mail -s &quot;DarkCoin Varning&quot; admin@foo.com
+till exempel: alertnotify=echo %%s | mail -s &quot;DARK Varning&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3135,13 +3135,13 @@ till exempel: alertnotify=echo %%s | mail -s &quot;DarkCoin Varning&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  DarkCoin is probably already running.</source>
-        <translation>Kan inte låsa datan i mappen %s. DarkCoin är kanske redan startad.</translation>
+        <source>Cannot obtain a lock on data directory %s.  DARK is probably already running.</source>
+        <translation>Kan inte låsa datan i mappen %s. DARK är kanske redan startad.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>DarkCoin</source>
-        <translation>DarkCoin</translation>
+        <source>DARK</source>
+        <translation>DARK</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3175,13 +3175,13 @@ till exempel: alertnotify=echo %%s | mail -s &quot;DarkCoin Varning&quot; admin@
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of DarkCoin</source>
-        <translation>Kunde inte ladda wallet.dat: En nyare version av DarkCoin krävs</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of DARK</source>
+        <translation>Kunde inte ladda wallet.dat: En nyare version av DARK krävs</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart DarkCoin to complete</source>
-        <translation>Plånboken måste skrivas om: Starta om DarkCoin för att slutföra</translation>
+        <source>Wallet needed to be rewritten: restart DARK to complete</source>
+        <translation>Plånboken måste skrivas om: Starta om DARK för att slutföra</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3250,8 +3250,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;DarkCoin Varning&quot; admin@
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. DarkCoin is probably already running.</source>
-        <translation>Kan inte binda till %s på denna dator. DarkCoin är sannolikt redan startad.</translation>
+        <source>Unable to bind to %s on this computer. DARK is probably already running.</source>
+        <translation>Kan inte binda till %s på denna dator. DARK är sannolikt redan startad.</translation>
     </message>
     <message>
         <location line="-97"/>

@@ -1,7 +1,7 @@
 
-DarkCoin development tree
+DARK development tree
 
-DarkCoin is a PoS cryptocurrency.
+DARK is a PoS cryptocurrency.
 
 Development process
 ===========================

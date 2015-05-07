@@ -3,13 +3,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About DarkCoin</source>
-        <translation>О DarkCoin</translation>
+        <source>About DARK</source>
+        <translation>О DARK</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;DarkCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;DarkCoin&lt;/b&gt; версия</translation>
+        <source>&lt;b&gt;DARK&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;DARK&lt;/b&gt; версия</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -19,7 +19,7 @@ Copyright © 2014 The BlackCoin developers
 Copyright © 2014 The ShadowCoin developers</source>
         <translation>Все права защищены © 2009-2014 Разработчики Bitcoin
 Все права защищены © 2012-2014 Разработчики NovaCoin
-Все права защищены © 2014 Разработчики DarkCoin</translation>
+Все права защищены © 2014 Разработчики DARK</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -66,7 +66,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your DarkCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your DARK addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
     </message>
     <message>
@@ -81,8 +81,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a DarkCoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом DarkCoin</translation>
+        <source>Sign a message to prove you own a DARK address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом DARK</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -96,8 +96,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified DarkCoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом DarkCoin</translation>
+        <source>Verify a message to ensure it was signed with a specified DARK address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом DARK</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -264,7 +264,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>DarkCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>DARK will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши монеты от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
@@ -378,8 +378,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about DarkCoin</source>
-        <translation>Показать информацию о DarkCoin&apos;е</translation>
+        <source>Show information about DARK</source>
+        <translation>Показать информацию о DARK&apos;е</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -428,13 +428,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a DarkCoin address</source>
-        <translation>Отправить монеты на указанный адрес DarkCoin</translation>
+        <source>Send coins to a DARK address</source>
+        <translation>Отправить монеты на указанный адрес DARK</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for DarkCoin</source>
-        <translation>Изменить параметры конфигурации DarkCoin</translation>
+        <source>Modify configuration options for DARK</source>
+        <translation>Изменить параметры конфигурации DARK</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -473,8 +473,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-200"/>
-        <source>DarkCoin</source>
-        <translation>DarkCoin</translation>
+        <source>DARK</source>
+        <translation>DARK</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -483,8 +483,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About DarkCoin</source>
-        <translation>&amp;О DarkCoin</translation>
+        <source>&amp;About DARK</source>
+        <translation>&amp;О DARK</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -540,12 +540,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>DarkCoin client</source>
-        <translation>DarkCoin клиент</translation>
+        <source>DARK client</source>
+        <translation>DARK клиент</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to DarkCoin network</source>
+        <source>%n active connection(s) to DARK network</source>
         <translation><numerusform>%n активное соединение с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform></translation>
     </message>
     <message>
@@ -660,8 +660,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid DarkCoin address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом DarkCoin или неправильными параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid DARK address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом DARK или неправильными параметрами URI.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -720,8 +720,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. DarkCoin can no longer continue safely and will quit.</source>
-        <translation>Произошла неисправимая ошибка. DarkCoin не может безопасно продолжать работу и будет закрыт.</translation>
+        <source>A fatal error occurred. DARK can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. DARK не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -1040,8 +1040,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid DarkCoin address.</source>
-        <translation>Введённый адрес &quot;%1&quot; не является правильным DarkCoin-адресом.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid DARK address.</source>
+        <translation>Введённый адрес &quot;%1&quot; не является правильным DARK-адресом.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1059,8 +1059,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>DarkCoin-Qt</source>
-        <translation>DarkCoin-Qt</translation>
+        <source>DARK-Qt</source>
+        <translation>DARK-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1132,13 +1132,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start DarkCoin after logging in to the system.</source>
-        <translation>Автоматически запускать DarkCoin после входа в систему</translation>
+        <source>Automatically start DARK after logging in to the system.</source>
+        <translation>Автоматически запускать DARK после входа в систему</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start DarkCoin on system login</source>
-        <translation>&amp;Запускать DarkCoin при входе в систему</translation>
+        <source>&amp;Start DARK on system login</source>
+        <translation>&amp;Запускать DARK при входе в систему</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1157,8 +1157,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the DarkCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для DarkCoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+        <source>Automatically open the DARK client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для DARK-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1167,8 +1167,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the DarkCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Подключаться к сети DarkCoin через прокси SOCKS (например, при подключении через Tor).</translation>
+        <source>Connect to the DARK network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Подключаться к сети DARK через прокси SOCKS (например, при подключении через Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1242,8 +1242,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting DarkCoin.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска DarkCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting DARK.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска DARK.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1257,8 +1257,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show DarkCoin addresses in the transaction list or not.</source>
-        <translation>Показывать ли адреса DarkCoin в списке транзакций.</translation>
+        <source>Whether to show DARK addresses in the transaction list or not.</source>
+        <translation>Показывать ли адреса DARK в списке транзакций.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1304,8 +1304,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting DarkCoin.</source>
-        <translation>Эта настройка вступит в силу после перезапуска DarkCoin</translation>
+        <source>This setting will take effect after restarting DARK.</source>
+        <translation>Эта настройка вступит в силу после перезапуска DARK</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1323,8 +1323,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DarkCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью DarkCoin после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DARK network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью DARK после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1539,8 +1539,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the DarkCoin-Qt help message to get a list with possible DarkCoin command-line options.</source>
-        <translation>Показать помощь по DarkCoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
+        <source>Show the DARK-Qt help message to get a list with possible DARK command-line options.</source>
+        <translation>Показать помощь по DARK-Qt, чтобы получить список доступных параметров командной строки.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1559,13 +1559,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>DarkCoin - Debug window</source>
-        <translation>DarkCoin - Окно отладки</translation>
+        <source>DARK - Debug window</source>
+        <translation>DARK - Окно отладки</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>DarkCoin Core</source>
-        <translation>Ядро DarkCoin</translation>
+        <source>DARK Core</source>
+        <translation>Ядро DARK</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1574,8 +1574,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the DarkCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл DarkCoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+        <source>Open the DARK debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл DARK из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1584,8 +1584,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the DarkCoin RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль DarkCoin.</translation>
+        <source>Welcome to the DARK RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль DARK.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1743,8 +1743,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a DarkCoin address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
-        <translation>Введите DarkCoin-адрес (например FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
+        <source>Enter a DARK address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
+        <translation>Введите DARK-адрес (например FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1843,7 +1843,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid DarkCoin address</source>
+        <source>WARNING: Invalid DARK address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1917,8 +1917,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DarkCoin address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
-        <translation>Введите DarkCoin-адрес (например FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
+        <source>Enter a DARK address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
+        <translation>Введите DARK-адрес (например FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
     </message>
 </context>
 <context>
@@ -1978,8 +1978,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this DarkCoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом DarkCoin</translation>
+        <source>Sign the message to prove you own this DARK address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом DARK</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2010,8 +2010,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified DarkCoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом DarkCoin</translation>
+        <source>Verify the message to ensure it was signed with the specified DARK address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом DARK</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2021,8 +2021,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DarkCoin address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
-        <translation>Введите адрес DarkCoin (напр. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
+        <source>Enter a DARK address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</source>
+        <translation>Введите адрес DARK (напр. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2031,8 +2031,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter DarkCoin signature</source>
-        <translation>Введите подпись DarkCoin</translation>
+        <source>Enter DARK signature</source>
+        <translation>Введите подпись DARK</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2602,7 +2602,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>DarkCoin version</source>
+        <source>DARK version</source>
         <translation>Версия</translation>
     </message>
     <message>
@@ -2612,8 +2612,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or darkcoind</source>
-        <translation>Отправить команду на -server или darkcoind</translation>
+        <source>Send command to -server or DARKd</source>
+        <translation>Отправить команду на -server или DARKd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2633,13 +2633,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: darkcoin.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: darkcoin.conf)</translation>
+        <source>Specify configuration file (default: DARK.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: DARK.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: darkcoind.pid)</source>
-        <translation>Указать pid-файл (по умолчанию: darkcoind.pid)</translation>
+        <source>Specify pid file (default: DARKd.pid)</source>
+        <translation>Указать pid-файл (по умолчанию: DARKd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2788,8 +2788,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DarkCoin will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, DarkCoin будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DARK will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, DARK будет работать некорректно.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2978,13 +2978,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=darkcoinrpc
+rpcuser=DARKrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;DarkCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;DARK Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -3110,13 +3110,13 @@ for example: alertnotify=echo %%s | mail -s &quot;DarkCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  DarkCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  DARK is probably already running.</source>
         <translation>Невозможно установить блокировку на рабочую директорию %s.  Возможно, бумажник уже запущен.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>DarkCoin</source>
-        <translation>DarkCoin</translation>
+        <source>DARK</source>
+        <translation>DARK</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3150,13 +3150,13 @@ for example: alertnotify=echo %%s | mail -s &quot;DarkCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of DarkCoin</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию DarkCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of DARK</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию DARK</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart DarkCoin to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите DarkCoin для завершения операции</translation>
+        <source>Wallet needed to be rewritten: restart DARK to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите DARK для завершения операции</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3225,8 +3225,8 @@ for example: alertnotify=echo %%s | mail -s &quot;DarkCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. DarkCoin is probably already running.</source>
-        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, DarkCoin уже работает.</translation>
+        <source>Unable to bind to %s on this computer. DARK is probably already running.</source>
+        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, DARK уже работает.</translation>
     </message>
     <message>
         <location line="-97"/>

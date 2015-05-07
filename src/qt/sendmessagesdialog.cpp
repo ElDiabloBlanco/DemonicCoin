@@ -34,7 +34,7 @@ SendMessagesDialog::SendMessagesDialog(Mode mode, Type type, QWidget *parent) :
 #if QT_VERSION >= 0x040700
      /* Do not move this to the XML file, Qt before 4.7 will choke on it */
     if(mode == SendMessagesDialog::Encrypted)
-        ui->addressFrom->setPlaceholderText(tr("Enter a DarkCoin address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)"));
+        ui->addressFrom->setPlaceholderText(tr("Enter a DARK address (e.g. FECqNjwb99MC7nTHM1iQKpL9RGZAAiVPnz)"));
  #endif
     addEntry();
 
