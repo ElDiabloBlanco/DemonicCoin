@@ -381,11 +381,11 @@ rend_config_services(const or_options_t *options, int validate_only)
             )
         );
         if (nTestNet) {
-          coin_port->virtual_port = 21974;
-          coin_port->real_port = 21974;
+          coin_port->virtual_port = 54541;
+          coin_port->real_port = 54541;
         } else {
-          coin_port->virtual_port = 1974;
-          coin_port->real_port = 1974;
+          coin_port->virtual_port = 54540;
+          coin_port->real_port = 54540;
         }
         coin_port->real_addr.family = AF_INET;
         tor_inet_aton(
