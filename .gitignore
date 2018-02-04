@@ -1,7 +1,7 @@
 src/*.exe
-src/DemonicCoin
-src/DemonicCoind
-src/test_DemonicCoin
+src/InfiniteDarkCoin
+src/InfiniteDarkCoind
+src/test_InfiniteDarkCoin
 src/build.h
 .*.swp
 *.*~*
@@ -14,7 +14,7 @@ src/build.h
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-DemonicCoin-qt
+InfiniteDarkCoin-qt
 #resources cpp
 qrc_*.cpp
 #qt creator
