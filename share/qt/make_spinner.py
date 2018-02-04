@@ -37,7 +37,7 @@ for frame in xrange(NUMFRAMES):
     frame_files.append(outfile)
 
 p = Popen([CONVERT, "-delay", str(FRAMERATE), "-dispose", "2"] + frame_files + [DST])
-p.communicate()
+p.communicate() 
 
 
 
