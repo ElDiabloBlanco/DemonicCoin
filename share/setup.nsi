@@ -160,4 +160,4 @@ Function un.onInit
     ReadRegStr $INSTDIR HKCU "${REGKEY}" Path
     !insertmacro MUI_STARTMENU_GETFOLDER Application $StartMenuGroup
     !insertmacro SELECT_UNSECTION Main ${UNSEC0000}
-FunctionEnd
+FunctionEnd 
