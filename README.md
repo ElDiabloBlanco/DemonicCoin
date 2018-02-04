@@ -1,1 +1,1 @@
-DemonicCoin that evil Coin your parents warnded would take over
+For Years We've been afraid of the dark nows the time to make it ours with InfiniteDarkcoin
