@@ -1,7 +1,7 @@
 src/*.exe
-src/shadowcoin
-src/shadowcoind
-src/test_shadowcoin
+src/DemonicCoin
+src/DemonicCoind
+src/test_DemonicCoin
 src/build.h
 .*.swp
 *.*~*
@@ -10,11 +10,11 @@ src/build.h
 *.orig
 *.o
 *.patch
-.sdcoin
+.dcoin
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-shadowcoin-qt
+DemonicCoin-qt
 #resources cpp
 qrc_*.cpp
 #qt creator
