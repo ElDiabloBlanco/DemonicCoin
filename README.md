@@ -1,9 +1,1 @@
-
-DARK development tree
-
-DARK is a PoS cryptocurrency.
-
-Development process
-===========================
-
-Developer clones coin.
+DemonicCoin that evil Coin your parents warnded would take over
