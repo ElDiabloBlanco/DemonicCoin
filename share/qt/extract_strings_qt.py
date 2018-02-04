@@ -67,4 +67,4 @@ for (msgid, msgstr) in messages:
     if msgid != EMPTY:
         f.write('QT_TRANSLATE_NOOP("bitcoin-core", %s),\n' % ('\n'.join(msgid)))
 f.write('};')
-f.close()
+f.close() 
